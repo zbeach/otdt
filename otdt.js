@@ -2,7 +2,7 @@
  * Evaluates `f` on `args`.
  * @example
  * // returns 3
- * evl(1, 2, (a, b) => a + b);
+ * e(1, 2, (a, b) => a + b);
  * 
  * @param   {...*} args arguments. This is  everything before `f`.
  * @param   {...function} f a function. This is always the last parameter.

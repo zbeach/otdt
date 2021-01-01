@@ -1,0 +1,1 @@
+module.exports = (...args) => (args[args.length - 1]).apply(null, args.slice(0, args.length - 1));

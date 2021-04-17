@@ -5,10 +5,10 @@ It's an abbreviation of _"on these, do this"_.
 
 ```javascript
 // The normal way:
-// "A function that adds its two arguments shall be evaluated on 1 and 2".
+// "Evaluate a function that adds its two arguments on 1 and 2".
 ((a, b) => a + b)(1, 2)
 
-// The otdt way:
+// With otdt:
 // "Evaluate, on 1 and 2, a function that adds its two arguments."
 const e = require('otdt');
 e(1, 2, (a, b) => a + b)
